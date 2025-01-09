@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "price": 19.99,
+      "color": "Black",
+      "category": "Mouse",
+      "item_type": "Wired",
+      "description": "Basic wired mouse with ergonomic design."
+    },
+    {
+      "id": 2,
+      "price": 79.99,
+      "color": "Space Gray",
+      "category": "Keyboard",
+      "item_type": "Wireless",
+      "description": "Wireless keyboard with backlit keys and long battery life."
+    },
+    {
+      "id": 3,
+      "price": 29.99,
+      "color": "White",
+      "category": "Headphones",
+      "item_type": "Over-ear",
+      "description": "Comfortable over-ear headphones with good sound quality."
+    },
+    {
+      "id": 4,
+      "price": 14.99,
+      "color": "Blue",
+      "category": "Mousepad",
+      "item_type": "Gaming",
+      "description": "Large gaming mousepad with smooth surface for precise mouse control."
+    },
+    {
+      "id": 5,
+      "price": 49.99,
+      "color": "Silver",
+      "category": "Webcam",
+      "item_type": "1080p",
+      "description": "Full HD webcam with built-in microphone for video calls and streaming."
+    },
+    {
+      "id": 6,
+      "price": 9.99,
+      "color": "Clear",
+      "category": "Screen Protector",
+      "item_type": "Tempered Glass",
+      "description": "High-quality tempered glass screen protector for maximum protection."
+    }
+  ]
