@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import Carts from "./Carts";
 import Gadgets from "./Gadgets";
 
-const GadgetItems = ({handleStatus,status,handleAddToCart,addGadgets}) => {
+const GadgetItems = ({handleStatus,status,handleAddToCart,addGadgets,handleRemove}) => {
 
     return (
        <div>
@@ -13,7 +13,9 @@ const GadgetItems = ({handleStatus,status,handleAddToCart,addGadgets}) => {
         <div>
             {
                 !status ? <Gadgets handleAddToCart = {handleAddToCart}></Gadgets> : <Carts 
-                addGadgets = {addGadgets}></Carts>
+                addGadgets = {addGadgets}
+                handleRemove = {handleRemove}
+                ></Carts>
             }
         </div>
        </div>
@@ -25,6 +27,7 @@ GadgetItems.propTypes = {
     status : PropTypes.bool,
     handleAddToCart : PropTypes.func,
     addGadgets : PropTypes.array,
+    handleRemove : PropTypes.func,
 }
 
 export default GadgetItems;

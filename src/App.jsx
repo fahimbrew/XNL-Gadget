@@ -29,6 +29,14 @@ function App() {
     }
     
   }
+
+  const handleRemove = id =>{
+    // console.log(id);
+    // console.log('ami delete korbo')
+    const remainingCart = addGadgets.filter((p)=>p.id!==id);
+    setAddGadgets(remainingCart)
+    toast(`Product has been removed`)
+  }
   
 
   return (
@@ -40,6 +48,7 @@ function App() {
     status = {status}
     handleAddToCart = {handleAddToCart}
     addGadgets = {addGadgets}
+    handleRemove = {handleRemove}
     ></GadgetItems>
     
 
